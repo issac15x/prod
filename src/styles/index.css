@@ -1,0 +1,393 @@
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-color: rgba(223, 113, 11, 0.205);
+  background-blend-mode: screen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background h1 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: center;
+  color: #5a3c04;
+  text-shadow: #d64c16 2px 2px;
+  cursor: pointer;
+  font-size: 55px;
+}
+
+.background h1:hover {
+  -webkit-transform: scale(150%);
+          transform: scale(150%);
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+}
+
+.menu h2 {
+  cursor: pointer;
+  border-radius: 15px;
+  color: #5a3c04;
+  text-shadow: lightsalmon 2px 2px 5px;
+  border-bottom: maroon 1px solid;
+  margin-top: 22%;
+  font-size: 35px;
+}
+
+.menu h2:hover {
+  border: none;
+  -webkit-transform: scale(150%);
+          transform: scale(150%);
+  text-shadow: #cf5050 2px 2px 5px, #54d1da 2px 2px 2px;
+}
+
+.searchtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b88334;
+  border: none;
+}
+
+.searchtext .menu_iconvis {
+  float: right;
+  cursor: pointer;
+}
+
+.searchtext .menu_iconvis:hover {
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+}
+
+.searchtext .menu_iconvis .menu_iconinvis {
+  display: none;
+}
+
+.form_div {
+  -webkit-box-shadow: black 2px 2px 3px;
+          box-shadow: black 2px 2px 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  max-width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 25px 25px;
+  border: #4d3209 2px solid;
+  border-top: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b88334;
+}
+
+form {
+  margin: 0% 2%;
+}
+
+form input {
+  border: none;
+  border-bottom: orange 2px solid;
+  border-left: orange 2px solid;
+  border-radius: 12px;
+  color: white;
+  width: 250px;
+  height: 30px;
+  background-color: transparent;
+  font-size: large;
+  margin-top: 15%;
+  outline: none;
+}
+
+form input:hover {
+  background-color: black;
+}
+
+form button {
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  height: 30px;
+  width: 50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: blanchedalmond;
+  text-shadow: 1px 1px 2px gold;
+  background-color: rgba(47, 79, 79, 0.493);
+  border-radius: 10px 10px 0px 0px;
+  -webkit-box-shadow: #101b1b 2px 2px 7px;
+          box-shadow: #101b1b 2px 2px 7px;
+}
+
+.menu_invis {
+  display: none;
+}
+
+.menu_vis {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #deb887;
+}
+
+.menu_vis img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu_vis h2 {
+  cursor: pointer;
+  border-radius: 15px;
+  color: #5a3c04;
+  text-shadow: lightsalmon 2px 2px 5px;
+  border-bottom: maroon 1px solid;
+  margin-top: 5%;
+  font-size: 35px;
+}
+
+.menu_vis h2:hover {
+  border: none;
+  -webkit-transform: scale(150%);
+          transform: scale(150%);
+  text-shadow: #cf5050 2px 2px 5px, #54d1da 2px 2px 2px;
+}
+
+.food_divs_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-shadow: #706f6f 2px 2px;
+}
+
+.food_divs_container p {
+  color: blanchedalmond;
+  text-shadow: #8fa511 1px 1px 5px;
+}
+
+.food_div {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2%;
+  width: 450px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #a18a04;
+  -webkit-box-shadow: 5px 5px 5px #4e4302;
+          box-shadow: 5px 5px 5px #4e4302;
+}
+
+.food_div:hover p {
+  color: green;
+  -webkit-transform: rotate(5deg) scale(120%);
+          transform: rotate(5deg) scale(120%);
+}
+
+.food_div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.food_div .food_background {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 15px;
+}
+
+.login_container {
+  width: 100%;
+  height: 100vh;
+  background-color: chocolate;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login_container h1 {
+  font-size: 55px;
+  color: #55290a;
+  text-shadow: crimson 2px 2px 10px;
+}
+
+.login_container .formcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.login_container .formcontainer .login_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login_container .formcontainer .login_form button {
+  margin-top: 15%;
+}
+
+.login_container .formcontainer .login_form input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #55290a;
+}
+
+.signup_container {
+  width: 100%;
+  height: 100vh;
+  background-color: chocolate;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.signup_container h1 {
+  font-size: 55px;
+  color: #55290a;
+  text-shadow: crimson 2px 2px 10px;
+}
+
+.signup_container .formcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.signup_container .formcontainer .signup_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signup_container .formcontainer .signup_form button {
+  margin-top: 15%;
+}
+
+.signup_container .formcontainer .signup_form input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #55290a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: cursive;
+}
+/*# sourceMappingURL=index.css.map */
